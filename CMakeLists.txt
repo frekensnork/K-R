@@ -3,5 +3,5 @@ project(K-R)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES tasks1/task1.10.c)
+set(SOURCE_FILES tasks1/task1.13.c)
 add_executable(K-R ${SOURCE_FILES})
