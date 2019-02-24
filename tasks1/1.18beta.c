@@ -36,9 +36,6 @@ void trim(char buf[])
 			c = getchar();
 		}
 	}
-	if (i > 0 && buf[i - 1] != '\n') {
-                buf[i++] = '\n';
-	}
 	buf[i] = '\0';
 }
 
